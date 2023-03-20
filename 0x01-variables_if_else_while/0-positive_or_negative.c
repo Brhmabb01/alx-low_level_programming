@@ -3,13 +3,11 @@
 #include <stdio.h>
 /**
  * main - Determine if a random is positve, negative or zero
- * 
  * Return: 0 on sucess
  */
 int main(void)
 {	
 	int n;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
@@ -22,8 +20,9 @@ int main(void)
 		printf("%d is %s\n", n, "positive");
 	}	
 	else
-	{ 
+	{
 		printf("%d is %s\n", n, "zero");
 	}
 	return (0);
 }
+
