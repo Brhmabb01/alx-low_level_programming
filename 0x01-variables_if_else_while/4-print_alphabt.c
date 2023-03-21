@@ -16,7 +16,7 @@ lowerCase += 1;
 }
 else
 {
-putxhar(lowerCase);
+putchar(lowerCase);
 lowerCase += 1;
 }
 }
