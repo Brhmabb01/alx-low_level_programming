@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.hi>
 
 /**
  * main - Entry point
@@ -8,8 +8,8 @@
 int main(void)
 {
 int lowerCase = 'a';
-int upperCasr ='A'
-while (lowerCase <= 'z)'
+int upperCase ='A';
+while (lowerCase <= 'z')
 {
 putchar(lowerCase);
 lowerCase =+ 1;
@@ -21,3 +21,4 @@ upperCase += 1;
 }
 putchar('\n');
 return (0);
+}
