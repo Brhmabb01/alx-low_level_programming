@@ -6,8 +6,8 @@
  * Return: 1 for positve num, -1 for negative or zero for other
  */
 
-int print_sign(int
-		)
+int print_sign(int)
+
 {
 
 	if (n > 0)
@@ -26,4 +26,4 @@ int print_sign(int
 	return (0);
 	}
 
-}	
+}
